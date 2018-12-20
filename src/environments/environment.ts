@@ -6,16 +6,16 @@
 export const environment = {
   production: false,
   app: {
-    title: "Macgregor Ministry Maps",
+    title: "Toowong Ministry Maps",
     mapBase: 'http://localhost:4200/'
   },
   firebase: {
-    apiKey: "AIzaSyAbLH6E8owqokr3eefpUypyMzPW0E9cBbo",
-    authDomain: "intense-torch-339.firebaseapp.com",
-    databaseURL: "https://intense-torch-339.firebaseio.com",
-    projectId: "intense-torch-339",
-    storageBucket: "intense-torch-339.appspot.com",
-    messagingSenderId: "570900012219"
+    apiKey: "AIzaSyAQ6yor3WnBT74kyErJVotz76y9x0A4f28",
+   authDomain: "toowong-maps.firebaseapp.com",
+   databaseURL: "https://toowong-maps.firebaseio.com",
+   projectId: "toowong-maps",
+   storageBucket: "toowong-maps.appspot.com",
+   messagingSenderId: "1055117975996"
   },
   version: {
     current: '2.90.1',
