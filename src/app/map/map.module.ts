@@ -18,7 +18,7 @@ import { TagInputModule } from 'ngx-chips';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpModule } from '@angular/http';
 import { MapAdminComponent } from './map-admin.component';
-import { MapSearchComponent } from './map-search.component'
+import { environment } from '../../environments/environment'
 
 @NgModule({
   imports:      [
@@ -52,9 +52,9 @@ import { MapSearchComponent } from './map-search.component'
     MatCheckboxModule,
     MatTableModule
    ],
-  declarations: [ MapComponent, MapsListComponent, MarkerClusterDirective, LoadingDialog, MapShareComponent, MapShareDlgComponent, AddressDlgComponent, AddressListDlgComponent, MapReturnConfirmDlgComponent, MapAdminComponent, MapSearchComponent, MapEditDlgComponent],
-  exports:      [ MapComponent, MapsListComponent, MapShareComponent, MapShareDlgComponent, AddressDlgComponent, AddressListDlgComponent, MapReturnConfirmDlgComponent, MarkerClusterDirective, MapAdminComponent, MapSearchComponent, MapEditDlgComponent ],
+  declarations: [ MapComponent, MapsListComponent, MarkerClusterDirective, LoadingDialog, MapShareComponent, MapShareDlgComponent, AddressDlgComponent, AddressListDlgComponent, MapReturnConfirmDlgComponent, MapAdminComponent, MapEditDlgComponent],
+  exports:      [ MapComponent, MapsListComponent, MapShareComponent, MapShareDlgComponent, AddressDlgComponent, AddressListDlgComponent, MapReturnConfirmDlgComponent, MarkerClusterDirective, MapAdminComponent, MapEditDlgComponent ],
   providers:    [ MapService, WindowRef ],
-  entryComponents: [ LoadingDialog, MapShareDlgComponent, AddressDlgComponent, AddressListDlgComponent, MapReturnConfirmDlgComponent, MapAdminComponent, MapSearchComponent, MapEditDlgComponent ]
+  entryComponents: [ LoadingDialog, MapShareDlgComponent, AddressDlgComponent, AddressListDlgComponent, MapReturnConfirmDlgComponent, MapAdminComponent, MapEditDlgComponent ]
 })
 export class MapModule { }
