@@ -5,6 +5,9 @@
 
 export const environment = {
   production: false,
+  agm: {
+    api: 'AIzaSyB6EVRDfSAHTAkrx-VmXyKU7Y3qLSuD0Ag'
+  },
   app: {
     title: "Macgregor Ministry Maps",
     mapBase: 'http://localhost:4200/'

@@ -26,7 +26,7 @@ import { environment } from '../../environments/environment'
     FormsModule,
     BrowserAnimationsModule,
     TagInputModule,
-    AgmCoreModule.forRoot({apiKey:'AIzaSyB6EVRDfSAHTAkrx-VmXyKU7Y3qLSuD0Ag'}),
+    AgmCoreModule.forRoot({apiKey:environment.agm.api}),
     AngularFireDatabaseModule,
     MatDialogModule,
     MatSlideToggleModule,
