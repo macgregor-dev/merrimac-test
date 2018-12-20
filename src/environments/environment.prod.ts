@@ -1,5 +1,8 @@
 export const environment = {
   production: true,
+  agm: {
+    api: 'AIzaSyB6EVRDfSAHTAkrx-VmXyKU7Y3qLSuD0Ag'
+  },
   app: {
     title: "Macgregor Ministry Maps",
     mapBase: 'https://macgregor.jwapp.xyz/#'
