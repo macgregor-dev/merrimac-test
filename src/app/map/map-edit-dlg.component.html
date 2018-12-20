@@ -1,0 +1,28 @@
+<div mat-dialog-content>
+      <span><h3> Edit Map </h3></span>
+        <mat-card>
+          <mat-card-content>
+            <div>
+              <mat-form-field style="width: 300px;">
+                <input matInput placeholder="Map Name" [(ngModel)]="data.consumer.mapName" [ngModelOptions]="{standalone: true}" >
+              </mat-form-field>
+            </div>
+            <div>
+              <mat-form-field>
+                <mat-select placeholder="FSG" [(value)]="data.consumer.fsgName">
+                    <mat-option *ngFor="let fsg of data.consumer.fsgs" [value]="fsg">
+                      {{fsg}}
+                    </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-fab (click)="data.consumer.saveMapEdit()" ><mat-icon>save</mat-icon></button>
+            <button mat-fab (click)="data.consumer.closeMapEditDlg()"><mat-icon>cancel</mat-icon></button>
+          </mat-card-actions>
+        </mat-card>
+
+      <mat-dialog-actions>
+      </mat-dialog-actions>
+</div>
