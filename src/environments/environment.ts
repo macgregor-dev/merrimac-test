@@ -5,6 +5,7 @@
 
 export const environment = {
   production: false,
+  addressFeedBackForm: 'https://docs.google.com/forms/d/e/1FAIpQLScYHfYNwnSIWAL9RAH3rEPC74WfkFT0FgcvaJKx1nAIROXS6A/viewform',
   agm: {
     api: 'AIzaSyB6EVRDfSAHTAkrx-VmXyKU7Y3qLSuD0Ag'
   },
