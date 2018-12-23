@@ -11,7 +11,7 @@ export const environment = {
   },
   app: {
     title: "Toowong Ministry Maps (TEST)",
-    mapBase: 'https://maps-toowong-dev.jwapp.xyz:4200/'
+    mapBase: 'https://maps-toowong-dev.jwapp.xyz/#'
   },
   firebase: {
     apiKey: "AIzaSyAQ6yor3WnBT74kyErJVotz76y9x0A4f28",
