@@ -5,13 +5,13 @@
 
 export const environment = {
   production: true,
-  addressFeedBackForm: 'https://docs.google.com/forms/d/e/1FAIpQLScYHfYNwnSIWAL9RAH3rEPC74WfkFT0FgcvaJKx1nAIROXS6A/viewform',
+  addressFeedBackForm: 'https://docs.google.com/forms/d/e/1FAIpQLSdZYe2BmeJ_DLwW1lbvu9bcLWe7_wZ3Rs5fdaw-q4g9zfys3g/viewform',
   agm: {
     api: 'AIzaSyD_VnDujye_oVKyUnExhT3LqETfARNIoiw'
   },
   app: {
     title: "Toowong Ministry Maps (TEST)",
-    mapBase: 'https://maps-toowong-dev.jwapp.xyz/#'
+    mapBase: 'https://maps-toowong-test.jwapp.xyz/#'
   },
   firebase: {
     apiKey: "AIzaSyAQ6yor3WnBT74kyErJVotz76y9x0A4f28",
