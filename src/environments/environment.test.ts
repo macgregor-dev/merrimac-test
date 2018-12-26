@@ -10,20 +10,20 @@ export const environment = {
     api: 'AIzaSyD_VnDujye_oVKyUnExhT3LqETfARNIoiw'
   },
   app: {
-    title: "Toowong Ministry Maps (TEST)",
+    title: 'Toowong Ministry Maps (TEST)',
     mapBase: 'https://maps-toowong-test.jwapp.xyz/#'
   },
   firebase: {
-    apiKey: "AIzaSyAQ6yor3WnBT74kyErJVotz76y9x0A4f28",
-   authDomain: "toowong-maps.firebaseapp.com",
-   databaseURL: "https://toowong-maps.firebaseio.com",
-   projectId: "toowong-maps",
-   storageBucket: "toowong-maps.appspot.com",
-   messagingSenderId: "1055117975996"
+    apiKey: 'AIzaSyAQ6yor3WnBT74kyErJVotz76y9x0A4f28',
+   authDomain: 'toowong-maps.firebaseapp.com',
+   databaseURL: 'https://toowong-maps.firebaseio.com',
+   projectId: 'toowong-maps',
+   storageBucket: 'toowong-maps.appspot.com',
+   messagingSenderId: '1055117975996'
   },
   version: {
     current: '2.90.1',
-    list: ['2.90.1','2.90','2.89.1','2.89','2.88', '2.87', '2.86','2.85', '2.84','2.83', '2.82', '2.8.1','2.8', '2.7.1', '2.7'],
+    list: ['2.90.1', '2.90', '2.89.1', '2.89', '2.88', '2.87', '2.86', '2.85', '2.84', '2.83', '2.82', '2.8.1', '2.8', '2.7.1', '2.7'],
     details: {
       '2.90.1': 'Fixed add address dialog issue. Handled null street address on maps.',
       '2.90': 'Added search and edit map for map updaters',
