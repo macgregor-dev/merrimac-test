@@ -4,26 +4,26 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   addressFeedBackForm: 'https://docs.google.com/forms/d/e/1FAIpQLSdZYe2BmeJ_DLwW1lbvu9bcLWe7_wZ3Rs5fdaw-q4g9zfys3g/viewform',
   agm: {
     api: 'AIzaSyD_VnDujye_oVKyUnExhT3LqETfARNIoiw'
   },
   app: {
-    title: "Toowong Ministry Maps",
-    mapBase: 'http://localhost:4200/'
+    title: 'Toowong Ministry Maps',
+    mapBase: 'https://maps-toowong.jwapp.xyz/#'
   },
   firebase: {
-    apiKey: "AIzaSyAQ6yor3WnBT74kyErJVotz76y9x0A4f28",
-   authDomain: "toowong-maps.firebaseapp.com",
-   databaseURL: "https://toowong-maps.firebaseio.com",
-   projectId: "toowong-maps",
-   storageBucket: "toowong-maps.appspot.com",
-   messagingSenderId: "1055117975996"
+    apiKey: 'AIzaSyAc-LpdSNpZhfykfAsjYn3Ze9s0_wR58ts',
+   authDomain: 'toowong-maps-prod.firebaseapp.com',
+   databaseURL: 'https://toowong-maps-prod.firebaseio.com',
+   projectId: 'toowong-maps-prod',
+   storageBucket: 'toowong-maps-prod.appspot.com',
+   messagingSenderId: '1055117975996'
   },
   version: {
     current: '2.90.1',
-    list: ['2.90.1','2.90','2.89.1','2.89','2.88', '2.87', '2.86','2.85', '2.84','2.83', '2.82', '2.8.1','2.8', '2.7.1', '2.7'],
+    list: ['2.90.1', '2.90', '2.89.1', '2.89', '2.88', '2.87', '2.86', '2.85', '2.84', '2.83', '2.82', '2.8.1', '2.8', '2.7.1', '2.7'],
     details: {
       '2.90.1': 'Fixed add address dialog issue. Handled null street address on maps.',
       '2.90': 'Added search and edit map for map updaters',
