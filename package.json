@@ -8,7 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy test": "ng build --test --aot=false && angular-cli-ghpages --cname=maps-toowong-test.jwapp.xyz",
+    "deploy prod": "ng build --test --aot=false && angular-cli-ghpages --repo=https://github.com/toowongmandarin/toowong-maps-prod.git --cname=maps-toowong.jwapp.xyz"
   },
   "private": true,
   "dependencies": {
