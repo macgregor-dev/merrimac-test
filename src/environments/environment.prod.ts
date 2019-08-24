@@ -10,16 +10,17 @@ export const environment = {
     api: 'AIzaSyD_VnDujye_oVKyUnExhT3LqETfARNIoiw'
   },
   app: {
-    title: 'Toowong Ministry Maps',
-    mapBase: 'https://maps-toowong.jwapp.xyz/#'
+    title: 'Merrimac Ministry Maps',
+    mapBase: 'https://maps-merrimac.jwapp.xyz/#'
   },
-  firebase: {
-    apiKey: 'AIzaSyAc-LpdSNpZhfykfAsjYn3Ze9s0_wR58ts',
-   authDomain: 'toowong-maps-prod.firebaseapp.com',
-   databaseURL: 'https://toowong-maps-prod.firebaseio.com',
-   projectId: 'toowong-maps-prod',
-   storageBucket: 'toowong-maps-prod.appspot.com',
-   messagingSenderId: '1055117975996'
+  firebase : {
+    apiKey: "AIzaSyBqztrFmS23jWdjn1H7Nu0BhrFDnAkfaec",
+    authDomain: "merrimac-test.firebaseapp.com",
+    databaseURL: "https://merrimac-test.firebaseio.com",
+    projectId: "merrimac-test",
+    storageBucket: "",
+    messagingSenderId: "473257400280",
+    appId: "1:473257400280:web:1066000448889cdd"
   },
   version: {
     current: '2.90.1',

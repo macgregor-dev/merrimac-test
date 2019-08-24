@@ -1,5 +1,5 @@
 {
-  "name": "toowong-maps",
+  "name": "merrimac-maps",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
@@ -9,12 +9,12 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy test": "ng build --test --aot=false && angular-cli-ghpages --cname=maps-toowong-test.jwapp.xyz",
-    "deploy prod": "ng build --test --aot=false && angular-cli-ghpages --repo=https://github.com/toowongmandarin/toowong-maps-prod.git --cname=maps-toowong.jwapp.xyz"
+    "deploy test": "ng build --test --aot=false && angular-cli-ghpages --cname=maps-merrimac-test.jwapp.xyz",
+    "deploy prod": "ng build --test --aot=false && angular-cli-ghpages --repo=https://github.com/toowongmandarin/merrimac-maps-prod.git --cname=maps-merrimac.jwapp.xyz"
   },
   "private": true,
   "dependencies": {
-    "@agm/core": "^1.0.0-beta.0",
+    "@agm/core": "1.0.0-beta.0",
     "@angular/animations": "4.4.6",
     "@angular/cdk": "^2.0.0-beta.8",
     "@angular/common": "4.4.6",
@@ -36,6 +36,7 @@
     "moment-es6": "^1.0.0",
     "ngx-chips": "1.4.6",
     "rxjs": "^5.1.0",
+    "yarn": "^1.17.3",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {
