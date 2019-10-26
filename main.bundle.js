@@ -5638,13 +5638,14 @@ var environment = {
         mapBase: 'http://localhost:4200/'
     },
     firebase: {
-        apiKey: "AIzaSyBqztrFmS23jWdjn1H7Nu0BhrFDnAkfaec",
-        authDomain: "merrimac-test.firebaseapp.com",
-        databaseURL: "https://merrimac-test.firebaseio.com",
-        projectId: "merrimac-test",
-        storageBucket: "",
-        messagingSenderId: "473257400280",
-        appId: "1:473257400280:web:1066000448889cdd"
+        apiKey: "AIzaSyAnRRunKsgyMEU9nTSsoSiRJZUX3Ue43VI",
+        authDomain: "merrimac-prod.firebaseapp.com",
+        databaseURL: "https://merrimac-prod.firebaseio.com",
+        projectId: "merrimac-prod",
+        storageBucket: "merrimac-prod.appspot.com",
+        messagingSenderId: "676290134152",
+        appId: "1:676290134152:web:9151ec0429cce115419f3d",
+        measurementId: "G-07F84HCSK0"
     },
     version: {
         current: '2.90.1',
